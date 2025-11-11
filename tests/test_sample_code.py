@@ -17,7 +17,7 @@ def test_multiply():
 
 
 def test_divide():
-    #assert divide(10, 2) == 5
+    assert divide(10, 2) == 5
     assert divide(9, 3) == 3
 
     with pytest.raises(ValueError):
